@@ -96,8 +96,8 @@ def count_id(ids_list):
         if len(counts) == 2:
             mode = 'change'
             target_id = counts_list[1][0]
-            if int(counts_list[0][0]) <= 14:
-                mode = 'delete'
+            #if int(counts_list[0][0]) <= 14:
+            #    mode = 'delete'
         else:
             mode = 'delete'
             target_id = counts_list[0][0]
