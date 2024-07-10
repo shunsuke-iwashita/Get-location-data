@@ -26,13 +26,13 @@ def arg_parse():
     """
     parser = argparse.ArgumentParser(
         description='Update and delete IDs in a MOT format file and save the result to a different file.')
-    parser.add_argument('--folder_path', type=str, default='/home/s_iwashita/workspace6/detection/code_labelbox/result/original_mot',
+    parser.add_argument('--folder_path', type=str,
                         help='The path to the folder containing the original MOT format file.')
-    parser.add_argument('--changed_folder_path', type=str, default='/home/s_iwashita/workspace6/detection/code_labelbox/result/changed_mot',
+    parser.add_argument('--changed_folder_path', type=str,
                         help='The path to the folder containing the changed MOT format files.')
-    parser.add_argument('--file_name', type=str, default='original_file',
+    parser.add_argument('--file_name', type=str,
                         help='The name of the original MOT format file (without extension).')
-    parser.add_argument('--output_folder_path', type=str, default='/home/s_iwashita/workspace6/detection/code_labelbox/result/integrated_mot',
+    parser.add_argument('--output_folder_path',
                         help='The path to save the output MOT format file.')
     return parser.parse_args()
 
