@@ -97,7 +97,7 @@ python integrate_id.py --folder_path <folder_path> --changed_folder_path <change
 1. 右上の「Start」から「Start labeling」を選択
 2. Bounding Boxの欠損部分を補完
     
-    ![スクリーンショット 2024-07-01 231449.png](%E4%BD%8D%E7%BD%AE%E3%83%86%E3%82%99%E3%83%BC%E3%82%BF%E5%8F%96%E5%BE%97%E6%89%8B%E9%A0%86%207770396973f44adc8f2c3dc6138cc68a/%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%25B3%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%2583%25E3%2583%2588_2024-07-01_231449.png)
+    ![annotation.png](fig/annotation.png)
     
 
 ## Label Boxからのエクスポート
@@ -105,11 +105,11 @@ python integrate_id.py --folder_path <folder_path> --changed_folder_path <change
 1. Data Rowsからエクスポートするデータを選択
 2. 「selected」タブから「Export data v2」を選択
     
-    ![スクリーンショット 2024-07-02 000246.png](%E4%BD%8D%E7%BD%AE%E3%83%86%E3%82%99%E3%83%BC%E3%82%BF%E5%8F%96%E5%BE%97%E6%89%8B%E9%A0%86%207770396973f44adc8f2c3dc6138cc68a/%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%25B3%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%2583%25E3%2583%2588_2024-07-02_000246.png)
+    ![how_to_export.png](fig/how_to_export.png)
     
 3. 必要なデータを選択
     
-    ![スクリーンショット 2024-07-02 000400.png](%E4%BD%8D%E7%BD%AE%E3%83%86%E3%82%99%E3%83%BC%E3%82%BF%E5%8F%96%E5%BE%97%E6%89%8B%E9%A0%86%207770396973f44adc8f2c3dc6138cc68a/%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%25B3%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%2583%25E3%2583%2588_2024-07-02_000400.png)
+    ![select_data.png](fig/select_data.png)
     
 4. 「Export JSON」を選択
 5. 左下Notificationsからデータをダウンロードする
