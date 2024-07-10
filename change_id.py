@@ -69,12 +69,12 @@ def main():
     """
     parser = argparse.ArgumentParser(
         description='Update ID in the MOT format file.')
-    parser.add_argument('--folder_path', type=str, default='/home/s_iwashita/workspace6/detection/code_labelbox/result/yolo_mot',
+    parser.add_argument('--folder_path', type=str,
                         help='The path to the folder containing the MOT format file.')
     parser.add_argument('file_name', type=str,
                         help='The name of the MOT format file (without extension).')
     parser.add_argument('--output_folder_path', type=str,
-                        default='/home/s_iwashita/workspace6/detection/code_labelbox/result/changed_mot', help='The path to save the output MOT format file.')
+                        help='The path to save the output MOT format file.')
     parser.add_argument(
         'old_ids', type=str, help='The old id values to be updated, separated by commas.')
     parser.add_argument('new_id', type=int, help='The new id value.')
