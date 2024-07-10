@@ -104,11 +104,11 @@ def draw_bboxes_on_video(video_path, mot_data, output_path):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description='Draw bounding boxes from MOT format on video.')
-    parser.add_argument('--mot_file', type=str, default='/home/s_iwashita/workspace6/detection/code_labelbox/result/integrated_mot',
+    parser.add_argument('--mot_file', type=str,
                         help='Path to the MOT format file.')
-    parser.add_argument('--video_path', type=str, default='/home/s_iwashita/workspace6/videos/7on7_',
+    parser.add_argument('--video_path', type=str,
                         help='Path to the input video file.')
-    parser.add_argument('output_path', type=str, default='/home/s_iwashita/workspace6/videos/7on7__',
+    parser.add_argument('output_path', type=str,
                         help='Path to the output video file.')
 
     args = parser.parse_args()
