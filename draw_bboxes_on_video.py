@@ -80,7 +80,7 @@ def draw_bboxes_on_video(video_path, mot_data, output_path):
     out = cv2.VideoWriter(output_path, fourcc, frame_rate,
                           (frame_width, frame_height))
 
-    frame_id = 1
+    frame_id = 0
     while cap.isOpened():
         ret, frame = cap.read()
         if not ret:
